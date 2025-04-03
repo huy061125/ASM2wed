@@ -1,0 +1,105 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Toàn bộ trang */
+body {
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Giới thiệu */
+.intro {
+    padding: 30px;
+}
+
+.intro img {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* Tại sao chọn chúng tôi */
+.why-choose {
+    background-color: #ffffff;
+    padding: 40px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.feature {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: white;
+}
+
+.feature img {
+    width: 80px;
+    height: 80px;
+}
+
+.feature h3 {
+    margin-top: 10px;
+}
+
+/* Đánh giá khách hàng */
+.customer-reviews {
+    padding: 30px;
+    background-color: #e3f2fd;
+}
+
+.review {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+    margin: 10px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.review p {
+    font-style: italic;
+}
+
+.review h4 {
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
