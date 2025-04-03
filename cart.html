@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <h1>Products</h1>
+        <nav style="text-align: center;">
+            <a href="index.html">Home</a>
+            <a href="cart.html">Cart</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container text-center">
+            <div class="row">
+              <div class="col">
+                <img src="/imger/balo thời trang.png" alt="Fashion Backpack" width="211px" height="211px">
+            <h3>Balo thời trang</h3>
+            <p>Price: 500,000 VND</p>
+            <button onclick="addToCart('Fashion Backpack', 500000, '/imger/balo_thoi_trang.png')">Add to Cart</button>
+              </div>
+              <div class="col">
+                <img src="/imger/balo3.png" alt="Fashion Backpack"   width="211px" height="211px">
+                <h3>Balo thời trang</h3>
+                <p>Price: 950,000 VND</p>
+                <button onclick="addToCart('Fashion Backpack', 500000, '/imger/balo_thoi_trang.png')">Add to Cart</button>
+              </div>
+              <div class="col">
+                <img src="/imger/balo4.png" alt="Fashion Backpack"  width="211px" height="211px">
+                <h3>Balo thời trang</h3>
+                <p>Price: 900,000 VND</p>
+                <button onclick="addToCart('Fashion Backpack', 500000, '/imger/balo_thoi_trang.png')">Add to Cart</button>
+              </div>
+              <div class="col">
+                <img src="/imger/balo5.png" alt="Fashion Backpack"  width="211px" height="211px">                <h3>Balo thời trang</h3>
+                <p>Price: 600,000 VND</p>
+                <button onclick="addToCart('Fashion Backpack', 500000, '/imger/balo_thoi_trang.png')">Add to Cart</button>
+              </div>
+              <div class="col">
+                <img src="/imger/balo6.png" alt="Fashion Backpack"  width="211px" height="211px">                <h3>Balo thời trang</h3>
+                <p>Price: 550,000 VND</p>
+                <button onclick="addToCart('Fashion Backpack', 500000, '/imger/balo_thoi_trang.png')">Add to Cart</button>
+              </div>
+              <div class="col">
+                <img src="/imger/balo7.png" alt="Fashion Backpack"  width="211px" height="211px">                <h3>Balo thời trang</h3>
+                <p>Price: 750,000 VND</p>
+                <button onclick="addToCart('Fashion Backpack', 500000, '/imger/balo_thoi_trang.png')">Add to Cart</button>
+              </div>
+              <div class="col">
+                <img src="/imger/balo8.png" alt="Fashion Backpack"  width="211px" height="211px">                <h3>Balo thời trang</h3>
+                <p>Price: 800,000 VND</p>
+                <button onclick="addToCart('Fashion Backpack', 500000, '/imger/balo_thoi_trang.png')">Add to Cart</button>
+              </div>
+          </div>
+<div class="footer">
+        <!-- Feedback Section -->
+        <div id="feedback-section">
+            <h2>Customer Feedback</h2>
+            <form id="feedback-form">
+                <input type="text" id="username" placeholder="Your Name" required>
+                <textarea id="review" placeholder="Your Review" required></textarea>
+                <button type="submit">Submit Feedback</button>
+            </form>
+
+            <h3>Customer Reviews</h3>
+            <ul id="feedback-list"></ul>
+        </div>
+    </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/feedback.js"></script>
+</body>
+</html>
